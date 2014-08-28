@@ -1,0 +1,37 @@
+{
+  "name": "grunt-sourceroot",
+  "description": "The libsass compiler is too stupid to generate correct sourcemaps. This fixes them.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wearableintelligence/grunt-sourceroot",
+  "author": {
+    "name": "Zach Fogg",
+    "email": "zach.fogg@gmail.com",
+    "url": "http://zfo.gg/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wearableintelligence/grunt-sourceroot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wearableintelligence/grunt-sourceroot/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/wearableintelligence/grunt-sourceroot/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "underscore": "^1.7.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
